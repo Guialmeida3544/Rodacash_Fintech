@@ -18,4 +18,4 @@ Abra o arquivo `index.html` no navegador.
 
 ## Observação
 
-O projeto utiliza Tailwind CSS por CDN e CSS personalizado em arquivo separado. Não há JavaScript próprio no projeto.
+O projeto utiliza Tailwind CSS por CDN e CSS personalizado em arquivo separado. 
