@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RodaCash - Controle Financeiro para Motoristas</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <main class="min-h-screen">
+    <section class="tela-principal">
+      <nav class="barra-superior">
+        <div class="marca">
+          <div class="icone-marca">RC</div>
+          <div>
+            <p class="nome-marca">RodaCash</p>
+            <p class="subtitulo-marca">Fintech para motoristas de aplicativo</p>
+          </div>
+        </div>
+
+        <a class="botao-menu" href="#simulacao">Simular ganhos</a>
+      </nav>
+
+      <div class="conteudo-principal grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div class="apresentacao">
+          <span class="selo">Controle financeiro simples e direto</span>
+          <h1>Organize seus ganhos, custos e metas em uma única tela.</h1>
+          <p class="texto-introducao">
+            O RodaCash ajuda motoristas de aplicativo a entenderem quanto ganham por dia,
+            quanto gastam com combustível e qual e o lucro real depois dos custos da rotina.
+          </p>
+
+          <div class="acoes">
+            <a href="#painel" class="botao-primario">Ver painel</a>
+            <a href="#recursos" class="botao-secundario">Conhecer recursos</a>
+          </div>
+        </div>
+
+        <div id="painel" class="painel-financeiro">
+          <div class="cabecalho-painel">
+            <div>
+              <p class="rotulo">Resumo de hoje</p>
+              <h2>R$ 420,00</h2>
+            </div>
+            <span class="status">Meta em andamento</span>
+          </div>
+
+          <div class="indicadores grid grid-cols-2 gap-4">
+            <article class="cartao-indicador">
+              <p>Combustível</p>
+              <strong>R$ 85,00</strong>
+            </article>
+            <article class="cartao-indicador">
+              <p>Lucro estimado</p>
+              <strong>R$ 335,00</strong>
+            </article>
+            <article class="cartao-indicador">
+              <p>Horas online</p>
+              <strong>7h 20min</strong>
+            </article>
+            <article class="cartao-indicador">
+              <p>Corridas</p>
+              <strong>18</strong>
+            </article>
+          </div>
+
+          <div class="area-grafico">
+            <div class="linha-grafico">
+              <span>Seg</span>
+              <div class="barra"><span class="preenchimento preenchimento-um"></span></div>
+              <strong>R$ 320</strong>
+            </div>
+            <div class="linha-grafico">
+              <span>Ter</span>
+              <div class="barra"><span class="preenchimento preenchimento-dois"></span></div>
+              <strong>R$ 410</strong>
+            </div>
+            <div class="linha-grafico">
+              <span>Qua</span>
+              <div class="barra"><span class="preenchimento preenchimento-tres"></span></div>
+              <strong>R$ 380</strong>
+            </div>
+            <div class="linha-grafico">
+              <span>Hoje</span>
+              <div class="barra"><span class="preenchimento preenchimento-quatro"></span></div>
+              <strong>R$ 420</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="recursos" class="recursos grid grid-cols-1 md:grid-cols-3 gap-5">
+        <article class="cartao-recurso">
+          <div class="icone-recurso">01</div>
+          <h3>Controle de custos</h3>
+          <p>Registre combustível, aluguel do carro, manutenção e outros gastos da rotina.</p>
+        </article>
+
+        <article class="cartao-recurso">
+          <div class="icone-recurso">02</div>
+          <h3>Meta diaria</h3>
+          <p>Acompanhe quanto falta para bater a meta do dia e manter previsibilidade no mês.</p>
+        </article>
+
+        <article class="cartao-recurso">
+          <div class="icone-recurso">03</div>
+          <h3>Lucro real</h3>
+          <p>Veja uma estimativa simples do que sobra depois de descontar os principais custos.</p>
+        </article>
+      </section>
+
+      <section id="simulacao" class="simulacao grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div>
+          <span class="selo-claro">Exemplo de organização</span>
+          <h2>Dados que o motorista acompanha</h2>
+          <p>
+            A proposta da fintech é centralizar informações financeiras importantes para quem
+            trabalha com transporte por aplicativo e precisa tomar decisões rápidas durante o dia.
+          </p>
+        </div>
+
+        <div class="lista-dados">
+          <div><span>Faturamento bruto</span><strong>R$ 420,00</strong></div>
+          <div><span>Custo por km</span><strong>R$ 0,72</strong></div>
+          <div><span>Ganho por hora</span><strong>R$ 57,27</strong></div>
+          <div><span>Meta do dia</span><strong>R$ 500,00</strong></div>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
